@@ -1,0 +1,18 @@
+# Phase 1 (ML classifier) -- installed and verified
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+xgboost>=2.0
+imbalanced-learn>=0.12
+joblib>=1.3
+
+# Phase 3-4 (RAG) -- see README note on offline fallbacks
+sentence-transformers>=2.6
+faiss-cpu>=1.8
+google-genai>=1.0             # Phase 4 generation (Gemini, current SDK)
+
+# Phase 5 (evaluation)
+ragas>=0.1.7
+
+# Phase 6 (UI)
+streamlit>=1.33
