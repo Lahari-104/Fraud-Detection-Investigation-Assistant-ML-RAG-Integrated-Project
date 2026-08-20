@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-17
+# title: Zero-amount ignored, loss followed
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $0.00 authorization was dismissed before the zero-amount policy existed. A $500 charge on the same card cleared two hours later. The incident is the origin of the zero-amount verification-probe requirement.

@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-06
+# title: Model Probability Banding
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+Flagged transactions are triaged by model probability: at or above 0.90, treat as high-confidence and action immediately; 0.50 to 0.90, standard review; below the operating threshold but above 0.20, log as watch-list and monitor for repeat activity. Probability bands set queue priority, not the approve/decline decision by themselves.

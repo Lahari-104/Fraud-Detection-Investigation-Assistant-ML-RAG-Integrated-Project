@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-16
+# title: Confirmed fraud missed at 0.5 threshold
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A confirmed fraudulent $210 transaction scored 0.41, which a default 0.5 cut-off would have released. The tuned operating threshold caught it. This case is the standing argument for tuning the decision threshold rather than leaving it at 0.5.

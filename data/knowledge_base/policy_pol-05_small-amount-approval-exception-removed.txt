@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-05
+# title: Small-Amount Approval Exception Removed
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+The legacy rule that auto-approved transactions under $5.00 to reduce friction is withdrawn. Card-testing exploits exactly that exception; small amount alone must never override a model flag. Supersedes any prior low-value fast-approve guidance.

@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-11
+# title: High-Amount Daytime Anomaly Handling
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A high-value transaction (>= $200) flagged during ordinary daytime hours with a strong anomaly profile should not be downgraded merely because its timing is unremarkable. Roughly 17% of fraud exceeds $200, so amount and anomaly profile can carry a flag on their own without an overnight timestamp.

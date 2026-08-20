@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-20
+# title: Legitimate large purchase cleared
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $1,050 transaction tripped the high-value manual-hold threshold at probability 0.47. Manual review found a legitimate appliance purchase; the anomaly profile lacked any dominant fraud component. Cleared with a recorded justification, satisfying the false-positive cost-discipline policy.

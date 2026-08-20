@@ -1,0 +1,282 @@
+{
+  "aggregate": {
+    "backend": "tfidf",
+    "k": 5,
+    "precision_at_k": 0.5142857142857143,
+    "recall_at_k": 0.7797619047619048,
+    "mrr": 1.0,
+    "hit_rate": 1.0,
+    "n_queries": 14
+  },
+  "per_query": [
+    {
+      "query": "Micro-charge under one dollar flagged overnight, possible card testing",
+      "precision": 1.0,
+      "recall": 1.0,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-01",
+        "POL-12",
+        "CASE-21",
+        "CASE-06",
+        "POL-01"
+      ],
+      "relevant": [
+        "CASE-01",
+        "CASE-06",
+        "CASE-21",
+        "POL-01",
+        "POL-12"
+      ]
+    },
+    {
+      "query": "Zero-amount authorization, possible card-verification probe",
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-17",
+        "CASE-03",
+        "POL-08",
+        "POL-01",
+        "CASE-21"
+      ],
+      "relevant": [
+        "CASE-03",
+        "CASE-17",
+        "POL-08"
+      ]
+    },
+    {
+      "query": "High-value transaction over $1000 flagged, needs manual hold",
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-04",
+        "POL-03",
+        "CASE-20",
+        "POL-11",
+        "CASE-05"
+      ],
+      "relevant": [
+        "CASE-04",
+        "CASE-13",
+        "POL-03"
+      ]
+    },
+    {
+      "query": "Overnight transaction in the small hours, elevated risk window",
+      "precision": 0.6,
+      "recall": 0.75,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "POL-02",
+        "CASE-12",
+        "CASE-01",
+        "CASE-19",
+        "CASE-07"
+      ],
+      "relevant": [
+        "CASE-02",
+        "CASE-12",
+        "CASE-19",
+        "POL-02"
+      ]
+    },
+    {
+      "query": "Flag driven by dominant anomaly components V17 V14 V12 V10",
+      "precision": 0.6,
+      "recall": 0.75,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "POL-04",
+        "POL-10",
+        "CASE-13",
+        "CASE-18",
+        "CASE-08"
+      ],
+      "relevant": [
+        "CASE-13",
+        "CASE-18",
+        "CASE-23",
+        "POL-04"
+      ]
+    },
+    {
+      "query": "Large legitimate purchase flagged as false positive, no dominant anomaly",
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-05",
+        "CASE-20",
+        "POL-09",
+        "CASE-12",
+        "CASE-18"
+      ],
+      "relevant": [
+        "CASE-05",
+        "CASE-20",
+        "POL-09"
+      ]
+    },
+    {
+      "query": "Cluster of small charges in quick succession, coordinated run",
+      "precision": 0.6,
+      "recall": 0.75,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-11",
+        "POL-07",
+        "CASE-07",
+        "CASE-21",
+        "CASE-19"
+      ],
+      "relevant": [
+        "CASE-06",
+        "CASE-11",
+        "CASE-19",
+        "POL-07"
+      ]
+    },
+    {
+      "query": "Borderline low-probability flag below the action threshold, watch-list",
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-10",
+        "POL-06",
+        "CASE-16",
+        "POL-03",
+        "POL-10"
+      ],
+      "relevant": [
+        "CASE-10",
+        "CASE-16",
+        "POL-06"
+      ]
+    },
+    {
+      "query": "Confirmed fraud that a default 0.5 threshold would have missed",
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-16",
+        "CASE-10",
+        "POL-03",
+        "POL-04",
+        "CASE-04"
+      ],
+      "relevant": [
+        "CASE-16",
+        "POL-06"
+      ]
+    },
+    {
+      "query": "Escalating amounts on one card, probe then test then cash-out",
+      "precision": 0.2,
+      "recall": 0.3333333333333333,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-22",
+        "CASE-03",
+        "CASE-01",
+        "POL-07",
+        "CASE-21"
+      ],
+      "relevant": [
+        "CASE-14",
+        "CASE-22",
+        "POL-12"
+      ]
+    },
+    {
+      "query": "Small amount should not be auto-approved, card-testing exploit",
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "POL-05",
+        "CASE-07",
+        "CASE-21",
+        "CASE-01",
+        "POL-01"
+      ],
+      "relevant": [
+        "CASE-07",
+        "POL-01",
+        "POL-05"
+      ]
+    },
+    {
+      "query": "High-value charge during ordinary daytime hours with strong anomaly",
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "POL-11",
+        "CASE-08",
+        "CASE-05",
+        "CASE-04",
+        "CASE-13"
+      ],
+      "relevant": [
+        "CASE-08",
+        "CASE-13",
+        "POL-11"
+      ]
+    },
+    {
+      "query": "Analyst needs a recorded rationale and citation before acting on a flag",
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "POL-10",
+        "CASE-12",
+        "POL-04",
+        "CASE-20",
+        "POL-03"
+      ],
+      "relevant": [
+        "POL-09",
+        "POL-10"
+      ]
+    },
+    {
+      "query": "Legitimate overnight activity, weak anomaly profile, not fraud",
+      "precision": 0.4,
+      "recall": 0.6666666666666666,
+      "rr": 1.0,
+      "hit": true,
+      "retrieved": [
+        "CASE-12",
+        "POL-11",
+        "CASE-05",
+        "CASE-08",
+        "CASE-20"
+      ],
+      "relevant": [
+        "CASE-12",
+        "CASE-20",
+        "POL-09"
+      ]
+    }
+  ]
+}

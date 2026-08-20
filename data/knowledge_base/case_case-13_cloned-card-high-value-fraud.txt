@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-13
+# title: Cloned-card high-value fraud
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+An $780 transaction carried an extreme combined V17/V14/V12 anomaly signature and was flagged at probability 0.99. Confirmed as a cloned-card transaction. The strong multi-component anomaly profile is characteristic of physically cloned cards used for larger in-person-style charges.

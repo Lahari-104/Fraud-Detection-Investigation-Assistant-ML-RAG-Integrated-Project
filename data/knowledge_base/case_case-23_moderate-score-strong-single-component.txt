@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-23
+# title: Moderate score, strong single component
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $72 transaction scored a middling 0.52 but its attribution was almost entirely one extreme V10 value. Flagged for review under anomaly corroboration and confirmed fraudulent, showing probability and single-component extremity can diverge.

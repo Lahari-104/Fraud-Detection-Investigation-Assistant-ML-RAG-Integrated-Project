@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-08
+# title: Daytime high-value anomaly
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $260 transaction at 14:30 was flagged despite unremarkable timing, driven almost entirely by an extreme V17 anomaly contribution. It was confirmed fraudulent, illustrating that a strong anomaly profile can carry a flag without an overnight timestamp.

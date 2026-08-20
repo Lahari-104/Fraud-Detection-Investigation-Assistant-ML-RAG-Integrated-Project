@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-03
+# title: Zero-amount verification probe
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $0.00 authorization was flagged and initially looked harmless. Because policy requires zero-amount flags to trigger a card-status review, the analyst held the card; a $900 charge attempt followed twelve minutes later and was blocked. The zero-amount probe was the fraudster confirming the card was live.

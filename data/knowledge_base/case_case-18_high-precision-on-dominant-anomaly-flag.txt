@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-18
+# title: High precision on dominant-anomaly flag
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $58 transaction flagged at 0.93 with V14 as the overwhelming driver was fast-tracked under the anomaly-corroboration policy and confirmed within minutes. It exemplifies the high-precision regime where a single dominant fraud component makes confirmation quick.

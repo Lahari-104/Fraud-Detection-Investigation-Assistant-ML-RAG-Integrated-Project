@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-12
+# title: Legitimate overnight traveller
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $95 transaction at 03:40 was flagged largely on the overnight risk window. The anomaly profile was weak and no dominant fraud component was present. Manual review confirmed a legitimate purchase by a traveller in a different time zone; retained as a caution against acting on timing alone.

@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-09
+# title: False-Positive Cost Discipline
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+Because legitimate volume outweighs fraud roughly 578 to 1, every false positive carries real customer-friction cost. Analysts must record a brief written justification when declining a flagged transaction so that precision can be audited. A flag is a prompt for review, not an automatic decline.

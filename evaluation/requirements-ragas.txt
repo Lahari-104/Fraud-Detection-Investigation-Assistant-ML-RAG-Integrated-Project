@@ -1,0 +1,13 @@
+# Phase 5 RAGAS harness -- a KNOWN-GOOD pinned set.
+# RAGAS 0.4.x + langchain 1.x currently break on import (langchain-community
+# moved the vertexai path RAGAS references). These pins import and run together.
+# Install into a fresh venv, separate from the main requirements, to avoid
+# clashing with newer langchain if you have it.
+ragas==0.2.10
+langchain==0.2.16
+langchain-core==0.2.40
+langchain-community==0.2.16
+langchain-openai==0.1.25
+langchain-google-genai==1.0.10
+datasets>=2.19
+google-genai>=1.0

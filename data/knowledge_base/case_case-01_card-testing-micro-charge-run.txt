@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-01
+# title: Card-testing micro-charge run
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $0.79 transaction was flagged with probability 0.97 in the small hours. Its top drivers were V14 and V10 running far below their normal range, the classic anomaly signature. Investigation confirmed a card-testing probe: the fraudster was validating a stolen card number with a trivial charge before attempting larger purchases.

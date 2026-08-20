@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-11
+# title: Burst run across the processing stream
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A tight cluster of flagged transactions appeared in close processing-time proximity, amounts ranging $2 to $75. Escalated as a provisional coordinated run per burst-activity policy. Account-level correlation later confirmed several compromised cards used in quick succession.

@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-12
+# title: Repeat-Micro-Charge Pattern
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+Multiple micro-charges (each <= $2.00) flagged in the same processing window are a recognized card-testing signature. Treat the group as one incident, hold the associated card, and do not clear any single charge in isolation on the grounds of its trivial value.

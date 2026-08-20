@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-01
+# title: Micro-Authorization Card-Testing Rule
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+Transactions of $1.00 or less that carry an elevated model anomaly score must be treated as suspected card-testing. In the reference data 36.8% of confirmed fraud is at or below $1.00 versus 10.7% of legitimate activity, so a low amount combined with an anomalous profile is a positive signal, not a reason to dismiss the alert. Action: hold the card for step-up verification rather than approving on the basis of the small value.

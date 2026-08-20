@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-10
+# title: Explanation-Before-Action Requirement
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+No flagged transaction may be actioned without a recorded rationale citing the specific drivers of the flag -- amount band, time window, and dominant anomaly components -- and at least one supporting policy or precedent case. This requirement exists to keep decisions auditable and to prevent action on an unexplained score.

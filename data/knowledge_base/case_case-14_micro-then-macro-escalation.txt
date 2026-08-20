@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-14
+# title: Micro then macro escalation
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $0.60 probe was flagged and held; because the card was blocked, a follow-up $1,250 attempt fifteen minutes later was declined automatically. The case shows why holding on the micro-charge, rather than approving it, prevents the larger downstream loss.

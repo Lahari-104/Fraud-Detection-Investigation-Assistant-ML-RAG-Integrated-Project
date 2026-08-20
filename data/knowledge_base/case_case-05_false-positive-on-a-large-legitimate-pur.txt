@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-05
+# title: False positive on a large legitimate purchase
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+An $1,100 transaction was flagged at probability 0.58 with a mixed anomaly profile lacking the dominant V17/V14 signature. Manual review found a legitimate high-value purchase by an established customer. The case is retained as a template for distinguishing genuine large purchases from high-value fraud by anomaly-component profile.

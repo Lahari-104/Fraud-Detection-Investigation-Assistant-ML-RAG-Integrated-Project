@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-02
+# title: Overnight account-takeover charge
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $340 transaction at 02:14 processing time was flagged with a heavy V17 and V12 anomaly contribution. The account had no prior night-time activity. It was confirmed as an account takeover, with the charge placed while the legitimate cardholder was asleep.

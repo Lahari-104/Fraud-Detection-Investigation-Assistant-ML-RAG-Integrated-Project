@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-04
+# title: Anomaly-Component Corroboration
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A fraud flag is considered corroborated when its top score drivers include the components historically most separating for fraud -- V17, V14, V12 and V10, all of which run several standard deviations below their legitimate mean in confirmed fraud. When these dominate the attribution, the analyst may fast-track confirmation. When they do not, wider manual review is warranted before action.

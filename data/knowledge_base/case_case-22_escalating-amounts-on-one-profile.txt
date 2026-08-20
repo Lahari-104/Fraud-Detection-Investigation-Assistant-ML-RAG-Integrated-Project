@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-22
+# title: Escalating amounts on one profile
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+Three flagged transactions of $5, $50 and $400 arrived in sequence with a shared anomaly signature. The escalating-amount pattern -- probe, then test, then cash-out -- is a recognized fraud progression and was confirmed as a single fraud run.

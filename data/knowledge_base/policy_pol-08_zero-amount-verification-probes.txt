@@ -1,0 +1,6 @@
+# type: policy
+# id: POL-08
+# title: Zero-Amount Verification Probes
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+Transactions of exactly $0.00 are frequently account-verification probes used to confirm a card is live before a later charge. A flagged zero-amount transaction must trigger a card-status review rather than being discarded as harmless.

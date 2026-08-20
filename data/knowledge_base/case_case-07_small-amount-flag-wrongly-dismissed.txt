@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-07
+# title: Small-amount flag wrongly dismissed
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+A $0.95 flagged transaction was auto-approved under the old under-$5 fast-approve rule. It was later confirmed as the opening probe of a fraud run that escalated to a $600 loss. This case drove the withdrawal of the small-amount approval exception.

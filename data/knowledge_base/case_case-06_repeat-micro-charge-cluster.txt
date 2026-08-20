@@ -1,0 +1,6 @@
+# type: case
+# id: CASE-06
+# title: Repeat micro-charge cluster
+# grounded_features: amount, hour_of_day, anomaly_components, probability
+
+Five transactions between $0.50 and $1.80 were flagged in the same processing window, each with a similar anomaly profile. Treated as a single card-testing incident rather than five separate low-value alerts, the associated card was held. All five traced to one compromised card number.
